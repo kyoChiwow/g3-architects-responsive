@@ -52,6 +52,13 @@
   color: #727272;
 }
 
+.section-title-small{
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #131313;
+  
+}
+
 main{
   max-width: 1440px;
   margin: 0 auto;
@@ -165,6 +172,35 @@ main > section{
   grid-template-columns: repeat(2, 1fr);
   gap: 10px;
 }
+
+
+/* Offer-feat Style begins here */
+
+#oneside-border-design {
+  border-left: 5px solid #FF900E;
+  padding-left: 21px;
+}
+
+.offer-feat{
+  gap: 140px;
+}
+
+.offer-feat-cards{
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+  max-width: 586px;
+  height: 171px;
+  border-radius: 8px;
+  padding: 30px;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.offer-feat-left{
+  max-width: 586px;
+  margin-bottom: 30px;
+}
+
+
 
 /* Fact Card Style Begins here */
 
