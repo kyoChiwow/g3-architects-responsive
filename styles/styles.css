@@ -254,6 +254,18 @@ main > section{
   filter: grayscale(100%);
 }
 
+/* Footer section styles here */
+
+.footer-section {
+  max-width: 1440px;
+  border-radius: 8px;
+  margin: 0 auto;
+  margin-top: 100px;
+  background-color: rgba(255, 244, 231, 1);
+  padding: 10px;
+  text-align: center;
+}
+
 
 
 /* Responsive Smaller Styles */
