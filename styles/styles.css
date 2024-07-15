@@ -188,7 +188,6 @@ main > section{
 .offer-feat-cards{
   box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
   max-width: 586px;
-  height: 171px;
   border-radius: 8px;
   padding: 30px;
   text-align: left;
@@ -198,6 +197,19 @@ main > section{
 .offer-feat-left{
   max-width: 586px;
   margin-bottom: 30px;
+}
+
+#badge-btn{
+  padding: 46px 42px;
+  font-size: 1.56rem;
+  font-weight: 500;
+  margin-top: -100px;
+  margin-left: -92px;
+}
+
+#exp{
+  font-size: 4rem;
+  font-weight: 700;
 }
 
 
@@ -249,8 +261,19 @@ main > section{
 @media screen and (max-width: 576px) {
   .nav-bar, 
   .nav-links,
-  .features-container {
+  .features-container, 
+  .offer-feat {
     flex-direction: column;
+  }
+
+  .offer-feat-right img{
+    width: 100%;
+    margin-top: -70px;
+  }
+
+  #badge-btn {
+    margin-left: 20px;
+    margin-bottom: 20px;
   }
 
   .feature-img, 
@@ -325,6 +348,15 @@ main > section{
     gap: 40px;
     justify-items: center;
 
+  }
+
+  .offer-feat-right img{
+    width: 100%;
+    margin-top: 450px;
+  }
+
+  .offer-feat-left{
+    width: 100%;
   }
 
 }
